@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Clint Masden</Authors>
+    <Company>NA</Company>
+    <Product>TalentLMS Client [Version 4.3 | /api/v1]</Product>
+    <PackageProjectUrl>https://github.com/clintmasden/talentlms.client</PackageProjectUrl>
+    <Description>A client for TalentLMS Client Version 4.3.</Description>
+    <RepositoryUrl>https://github.com/clintmasden/talentlms.client</RepositoryUrl>
+    <PackageTags>TalentLMS Client API talentlms.com</PackageTags>
+    <Version>1.0.0.0</Version>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageReleaseNotes>initial deployment</PackageReleaseNotes>
+    <PackageLicenseFile>mit-license.txt</PackageLicenseFile>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\mit-license.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
